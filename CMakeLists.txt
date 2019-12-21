@@ -8,5 +8,5 @@ add_library(satheesh SHARED ${HELLOWORLD_SOURCE_FILE})
 #target_link_libraries(mdm_layer "-lmsgpackc")
 #export(TARGETS mdm_layer FILE mdm_layer.cmake)
 
-install(TARGETS mdm_layer
+install(TARGETS satheesh
     DESTINATION ${CMAKE_INSTALL_LIBDIR})
