@@ -1,4 +1,4 @@
-SUMMARY = "SKY MDM layer library implementing the TR104 DM"
+SUMMARY = "Sample yocto helloworld"
 LICENSE = "CLOSED"
 
 #SRC_URI = "git://github.com/sinjoysaha/simple-c-programs;branch=master"
