@@ -3,7 +3,7 @@ find_package(PkgConfig REQUIRED)
 project(satheesh)
 set(HELLOWORLD_SOURCE_FILE helloWorld.c)
 
-add_library(satheesh SHARED ${HELLOWORLD_SOURCE_FILE})
+add_executable(satheesh ${HELLOWORLD_SOURCE_FILE})
 #set_target_properties(satheesh PROPERTIES SOVERSION 1 VERSION 1.0.0 )
 #target_compile_options(satheesh PRIVATE -Wall -Wno-unused-function -Werror -fpic )
 #target_include_directories(satheesh PRIVATE ${CMAKE_CURRENT_SOURCE_DIR})
