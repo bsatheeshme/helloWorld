@@ -1,2 +1,3 @@
 # helloWorld
-Test Yocto
+
+This is simple package, to learn and practice yocto / bitbake stuff.
