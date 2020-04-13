@@ -1,6 +1,6 @@
 #cmake_minimum_required(VERSION 3.6)
-find_package(PkgConfig REQUIRED)
 project(satheesh)
+find_package(PkgConfig REQUIRED)
 set(HELLOWORLD_SOURCE_FILE helloWorld.c)
 
 add_executable(satheesh ${HELLOWORLD_SOURCE_FILE})
@@ -10,4 +10,4 @@ add_executable(satheesh ${HELLOWORLD_SOURCE_FILE})
 #target_link_libraries(satheesh "-lpthread")
 
 install(TARGETS satheesh
-    DESTINATION ${CMAKE_INSTALL_LIBDIR})
+   RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR})
